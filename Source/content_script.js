@@ -33,7 +33,7 @@ function handleText(textNode)
 
 	v = v.replace(/\bThe Cloud\b/g, "Other People's Computers");
 	v = v.replace(/\bThe cloud\b/g, "Other people's computers");
-	v = v.replace(/\bthe Cloud\b/g, "other people's computers");
+	v = v.replace(/\bthe Cloud\b/g, "Other People's Computers");
 	v = v.replace(/\bthe cloud\b/g, "other people's computers");
 	
 	textNode.nodeValue = v;
